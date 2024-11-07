@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 234, 234);
+}
+
+#navbar{
+    background-color:rgb(95, 28, 28);    
+    display: flex;
+    height: 10vw;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#heading{
+    color: white;
+    font-size: 8vw;    
+    align-self: center;
+    justify-self: center;
+    background-color: transparent;
+    margin-left: 15vw;
+    text-wrap:nowrap;
+
+}
+
+img{
+    height: 12vw;
+    width: 12vw;        
+    background-size: cover;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-top: 3vw;
+    border: 3pt solid brown;
+    
+}
+
+#pic{
+    background-color: transparent;
+    
+    
+}
+
+#cont-det{
+    background-color: transparent;    
+    justify-content: center;
+    margin-left: auto;    
+    width: 25vw;    
+}
+
+.contact{
+    font-size: 2vw;
+    color: white;
+    background-color: transparent;
+}
+
+.detail{
+    margin: 2rem;
+    border: 2px solid brown;
+    border-radius: 22px 22px 0 0;
+
+   
+}
+
+.det-head{
+    background-color: brown;
+    color: white;
+    font-size: 1.75rem;
+    padding: .5rem;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 20px;
+    
+}
+
+.det-desc{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    
+}
+#exp-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+#skill-btn{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#skill-btn:hover{
+    background-color: rgb(167, 98, 98);
+    text-decoration: none;
+}
+
+#btn{
+    display: flex;
+    justify-self:end;
+    background-color: brown;    
+    text-align: center;
+    font-weight: bold;    
+    font-size: 1rem;
+    align-self: center;
+    padding: 1rem;    
+    margin-right: 2rem;
+}
+
+#obj{
+    margin-top: 4vw;
+}
+
